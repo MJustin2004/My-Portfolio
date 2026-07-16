@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F7F6F2;
+  color: #161A1D;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.caret {
+  display: inline-block;
+  width: 8px;
+  height: 14px;
+  background: #161A1D;
+  margin-left: 2px;
+  vertical-align: -2px;
+  animation: blink 1.1s steps(1) infinite;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge::before {
+  content: '●';
+  font-size: 8px;
+}
+
+.badge-verified {
+  background: #E6F2EC;
+  color: #1F7A5C;
+}
+
+.badge-pending {
+  background: #FBEEDD;
+  color: #C97C1F;
+}
