@@ -2,13 +2,13 @@
 // Replace every [bracketed] placeholder with your real info.
 
 export const profile = {
-  name: '[Your Name]',
+  name: 'Mark Justin D. Montesines',
   role: 'QA Engineer & Prompt Engineer',
   email: 'you@email.com',
   location: '[City, Country]',
   headline: "I break things on purpose — then make sure they don't break again.",
   lede:
-    "[Your Name] — Quality Assurance Engineer with a growing focus on prompt engineering. I test rigorously, document clearly, and I'm building fluency in designing and evaluating LLM prompts alongside traditional QA work.",
+    "Mark Justin D. Montesines — Quality Assurance Engineer with a growing focus on prompt engineering. I test rigorously, document clearly, and I'm building fluency in designing and evaluating LLM prompts alongside traditional QA work.",
 };
 
 export const socials = [
