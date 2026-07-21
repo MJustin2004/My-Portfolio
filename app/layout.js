@@ -7,9 +7,9 @@ import '@fontsource/inter/700.css';
 import './globals.css';
 
 export const metadata = {
-  title: '[Your Name] — QA Engineer & Prompt Engineer',
+  title: 'Justin Montesines',
   description:
-    'Portfolio of [Your Name], a Quality Assurance Engineer building fluency in prompt engineering. Test cases, bug reports, prompt libraries, and projects.',
+    'Portfolio of Justin Montesines, a Quality Assurance Engineer building fluency in prompt engineering. Test cases, bug reports, prompt libraries, and projects.',
 };
 
 export default function RootLayout({ children }) {

@@ -2,13 +2,13 @@
 // Replace every [bracketed] placeholder with your real info.
 
 export const profile = {
-  name: 'Mark Justin D. Montesines',
+  name: 'Justin Montesines',
   role: 'QA Engineer & Prompt Engineer',
-  email: 'you@email.com',
-  location: '[City, Country]',
-  headline: "I break things on purpose — then make sure they don't break again.",
+  email: 'montesines.markjustin@gmail.com',
+  location: 'Philippines',
+  headline: 'Testing software. Testing prompts. Same instinct, two disciplines.',
   lede:
-    "Mark Justin D. Montesines — Quality Assurance Engineer with a growing focus on prompt engineering. I test rigorously, document clearly, and I'm building fluency in designing and evaluating LLM prompts alongside traditional QA work.",
+    "Justin Montesines is a 4th-year Computer Science student based in the Philippines, focused on Quality Assurance with a growing interest in prompt engineering. Still early in the journey, but serious about testing carefully, documenting clearly, and learning in public.",
 };
 
 export const socials = [
